@@ -10,7 +10,6 @@ body {
 }
 
 .nav_panel {
-    width: 100vw;
     background-color: #303030;
     display: flex;
     flex-direction: row;
@@ -33,7 +32,7 @@ a:after {
     margin-top: 5px;
     left: 0;
     width: 0;
-    height: 3px; 
+    height: 3px;
     background-color: #ffffff;
     content: "";
     transition: width 0.3s ease-out;
@@ -54,27 +53,53 @@ img {
     width: 34px;
 }
 
-.blur {
-    filter: blur(2px);
-
-}
-
-.blur::before {
-    content: " ";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 760px;
-    background: rgba(0, 0, 0, 0.5);
-    z-index: 1;
-}
-
 .first_block {
+    padding-top: 10px;
     height: 760px;
     background-image: url("/images/i.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    
+
+}
+
+button {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+    font-size: 27px;
+    color: #ffffff;
+
+    border: 1px, solid;
+    border-radius: 22.78px;
+    background: #D14A51;
+    border-color: #D14A51;
+    width: 291px;
+    height: 77px;
+
+    margin-left: 45px;
+    margin-top: 64px;
+
+}
+
+.text {
+    position: absolute;
+    font-size: 20px;
+    border: 0px, solid;
+    border-radius: 22.78px;
+    background: linear-gradient(140deg,
+            #333230 45%,
+            #4a4a4a00 100%);
+    margin-left: 500px;
+    margin-top: 40px;
+    padding-left: 30px;
+}
+
+.second_block{
+    height: 760px;
+    background: linear-gradient(
+        #383838 0%,
+        #202020 23%
+    );
 }

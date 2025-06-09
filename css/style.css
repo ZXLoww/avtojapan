@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
@@ -30,24 +31,17 @@ a:after {
     display: block;
     position: absolute;
     margin-top: 5px;
-
     left: 0;
-    /*изменить на right:0;, чтобы изменить направление подчёркивания */
     width: 0;
-    /*задаём длинну линии до наведения курсора*/
-    height: 3   px;
-    /*задаём ширину линии*/
+    height: 3px; 
     background-color: #ffffff;
-    /*задаём цвет линии*/
     content: "";
     transition: width 0.3s ease-out;
-    /*задаём время анимации*/
 }
 
 a:hover:after,
 a:focus:after {
     width: 100%;
-
 }
 
 img {
@@ -56,16 +50,16 @@ img {
     margin-left: 18px;
 }
 
-.svg_nav_panel{
+.svg_nav_panel {
     width: 34px;
+}
+
+.blur {
+    filter: blur(2px);
 
 }
 
-.blur{
-    filter: blur(2px);   
-}
-
-.blur::before{    
+.blur::before {
     content: " ";
     position: absolute;
     top: 0;
@@ -73,12 +67,14 @@ img {
     width: 100vw;
     height: 760px;
     background: rgba(0, 0, 0, 0.5);
-    z-index: 1
+    z-index: 1;
 }
-.first_block{
+
+.first_block {
     height: 760px;
     background-image: url("/images/i.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    
 }

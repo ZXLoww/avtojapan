@@ -1,19 +1,20 @@
-body {
+html, body {
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 550;
+    font-weight: 600;
     font-style: normal;
-    font-size: 37px;
+    font-size: 40px;
     color: #ffffff;
+    margin: 0;
 }
 
 .nav_panel {
+    width: 100vw;
     background-color: #303030;
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 60px;
-    margin-left: 20px;
     height: 154px;
 }
 
@@ -34,7 +35,7 @@ a:after {
     /*изменить на right:0;, чтобы изменить направление подчёркивания */
     width: 0;
     /*задаём длинну линии до наведения курсора*/
-    height: 2px;
+    height: 3   px;
     /*задаём ширину линии*/
     background-color: #ffffff;
     /*задаём цвет линии*/
@@ -46,15 +47,33 @@ a:after {
 a:hover:after,
 a:focus:after {
     width: 100%;
-    /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
+
 }
 
 img {
-    width: 127px;
-    height: 91px;
+    width: 140px;
+    height: 102px;
+    margin-left: 18px;
 }
 
 .svg_nav_panel{
     width: 34px;
 
 }
+
+.blur{
+    filter: blur(5px);
+
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1
+}
+.first_block{
+    height: 760px;
+    background-image: url("/images/i.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+

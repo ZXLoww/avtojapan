@@ -18,11 +18,11 @@ body {
     height: 154px;
 }
 
-.numbers{
+.numbers {
     color: #D14A51;
 }
 
-.numbers_image{
+.numbers_image {
     width: 35px;
     height: auto;
 }
@@ -106,23 +106,95 @@ button {
     padding-left: 30px;
 }
 
-.second_block{
+.second_block {
+    display: flex;
+    justify-content: center;
     height: 760px;
-    background: linear-gradient(
-        #383838 0%,
-        #202020 23%
-    );
+    background: linear-gradient(#383838 0%,
+            #202020 23%);
 }
 
-.head{
+.third_block {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    height: 760px;
+    background: linear-gradient(#383838 0%,
+            #202020 23%);
+}
+
+.head {
+    position: absolute;
+    display: flex;
     gap: 600px;
 }
 
-.car-selector{
+
+.car-selector {
     display: flex;
     flex-direction: row;
+    gap: 2r5px;
+    margin-top: 200px;
 }
 
+.car {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 22.78px;
+    border: #ffffff, solid, 0px;
+    background: linear-gradient(140deg,
+            #333230 45%,
+            #4a4a4a00 100%);
+    font-size: 22px;
+    font-weight: 400;
+    height: 409px;
+    width: 364px;
+}
 
+.cars {
+    width: 327px;
+    height: 236px;
+    border-radius: 22.78px;
+    margin: 0;
+    margin-top: 17px;
+
+}
+
+.car_top_text {
+    margin-top: 20px;
+}
+
+.car_bottom_text {
+    margin-top: 12px;
+    font-weight: 300;
+    color: #8E8C8C;
+}
+
+hr {
+    margin: 0px;
+    transform: none !important;
+    writing-mode: horizontal-tb !important;
+    width: 80% !important;
+    height: 2px !important;
+    border: 0;
+    border-top: 1px solid #ffffff;
+    margin-left: 10%;
+    position: absolute;
+
+}
+
+.sheme {
+    display: inline-block;
+    margin-top: 22px;
+    padding: 10px;
+    border: #ffffff, solid, 0px;
+    border-radius: 22.78px;
+    background: linear-gradient(-90deg,
+            #202020 45%,
+            #2C2C2C 100%);
+    height: 65px;
+    width: 90vw;
+
+}
+
+.sheme_block {}

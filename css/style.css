@@ -203,28 +203,33 @@ hr {
 }
 
 .sheme_block {
-
+    position: relative;
+    margin-top: 150px;
+    font-size: 15px;
+    font-weight: 300;
     border: #ffffff, solid, 0px;
     border-radius: 22.78px;
     background: linear-gradient(-90deg,
             #202020 45%,
             #2C2C2C 100%);
     padding: 20px;
+    height: 189px;
+    width: 304px;
 }
 
 .sheme_block h3 {
-  margin-top: 0;
-  color: #333;
+    font-weight: 500;
+    margin-top: 0;
 }
 
 .sheme_block p {
-  color: #666;
-  margin-bottom: 0;
+    margin-bottom: 0;
+    height: 100px;
 }
 
 .sheme_block_grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     /* 2 колонки */
     gap: 20px;
     /* Расстояние между блоками */
@@ -232,4 +237,8 @@ hr {
     /* Ограничение ширины сетки */
     margin: 0 auto;
     /* Центрирование сетки */
+}
+
+.sheme_car{
+    
 }

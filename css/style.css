@@ -50,6 +50,11 @@ a:after {
 a:hover:after,
 a:focus:after {
     width: 100%;
+
+}
+
+a:hover {
+    text-shadow: 0 0 2px #ffffff;
 }
 
 img {
@@ -184,7 +189,8 @@ hr {
 }
 
 .sheme {
-    display: inline-block;
+    display: inline;
+    position: absolute;
     margin-top: 22px;
     padding: 10px;
     border: #ffffff, solid, 0px;
@@ -194,7 +200,36 @@ hr {
             #2C2C2C 100%);
     height: 65px;
     width: 90vw;
-
 }
 
-.sheme_block {}
+.sheme_block {
+
+    border: #ffffff, solid, 0px;
+    border-radius: 22.78px;
+    background: linear-gradient(-90deg,
+            #202020 45%,
+            #2C2C2C 100%);
+    padding: 20px;
+}
+
+.sheme_block h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.sheme_block p {
+  color: #666;
+  margin-bottom: 0;
+}
+
+.sheme_block_grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* 2 колонки */
+    gap: 20px;
+    /* Расстояние между блоками */
+    max-width: 800px;
+    /* Ограничение ширины сетки */
+    margin: 0 auto;
+    /* Центрирование сетки */
+}

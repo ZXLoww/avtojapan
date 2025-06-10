@@ -204,7 +204,6 @@ hr {
 
 .sheme_block {
     position: relative;
-    margin-top: 150px;
     font-size: 15px;
     font-weight: 300;
     border: #ffffff, solid, 0px;
@@ -230,7 +229,7 @@ hr {
 .sheme_block_grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* 2 колонки */
+    /* 3 колонки */
     gap: 20px;
     /* Расстояние между блоками */
     max-width: 800px;
@@ -239,6 +238,19 @@ hr {
     /* Центрирование сетки */
 }
 
-.sheme_car{
-    
+.sheme_block_second {
+    position: relative;
+
+    font-size: 15px;
+    font-weight: 300;
+    border: #ffffff, solid, 0px;
+    border-radius: 22.78px;
+    padding: 20px;
+    height: 189px;
+    width: 304px;
+}
+
+.sheme_car {
+    width: 456px;
+    height: 189.65px;
 }

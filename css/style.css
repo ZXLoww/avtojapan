@@ -18,6 +18,15 @@ body {
     height: 154px;
 }
 
+.numbers{
+    color: #D14A51;
+}
+
+.numbers_image{
+    width: 35px;
+    height: auto;
+}
+
 a {
     position: relative;
     color: #ffffff;
@@ -46,11 +55,12 @@ a:focus:after {
 img {
     width: 140px;
     height: 102px;
-    margin-left: 18px;
+    margin-left: 10px;
 }
 
 .svg_nav_panel {
     width: 34px;
+    height: auto;
 }
 
 .first_block {
@@ -103,3 +113,16 @@ button {
         #202020 23%
     );
 }
+
+.head{
+    display: flex;
+    flex-direction: row;
+    gap: 600px;
+}
+
+.car-selector{
+    display: flex;
+    flex-direction: row;
+}
+
+

@@ -170,7 +170,7 @@ button:hover {
     font-weight: 400;
     height: 409px;
     width: 364px;
-    
+
 }
 
 .cars {
@@ -256,7 +256,7 @@ hr {
     /* Центрирование сетки */
 }
 
-.sheme_block_second{
+.sheme_block_second {
     margin-right: 40px;
     font-size: 15px;
     font-weight: 300;
@@ -271,12 +271,11 @@ hr {
     height: 240px;
 }
 
-.reviews_head{
+.reviews_head {
     padding-left: 9px;
     font-size: 34.44px;
 }
 
-.reviews_text{
+.reviews_text {
     padding-left: 9px;
 }
-

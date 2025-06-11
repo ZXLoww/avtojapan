@@ -75,8 +75,16 @@ img {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-
 }
+
+.fourth_block {
+    display: flex;
+    justify-content: center;
+    height: 760px;
+    background: linear-gradient(#383838 0%,
+            #202020 23%);
+}
+
 
 button {
     font-family: "Oswald", sans-serif;
@@ -85,7 +93,7 @@ button {
     font-style: normal;
     font-size: 27px;
     color: #ffffff;
-
+    transition: 0.3s;
     border: 1px, solid;
     border-radius: 22.78px;
     background: #D14A51;
@@ -95,6 +103,14 @@ button {
 
     margin-left: 45px;
     margin-top: 64px;
+
+}
+
+button:hover {
+    transition: 0.3s;
+    text-shadow: 0 0 1px #ffffff;
+    background: #de4e56;
+    scale: 1.03;
 
 }
 
@@ -137,7 +153,7 @@ button {
 .car-selector {
     display: flex;
     flex-direction: row;
-    gap: 2r5px;
+    gap: 25px;
     margin-top: 200px;
 }
 
@@ -154,6 +170,7 @@ button {
     font-weight: 400;
     height: 409px;
     width: 364px;
+    
 }
 
 .cars {
@@ -204,15 +221,15 @@ hr {
 
 .sheme_block {
     position: relative;
-    font-size: 15px;
+    font-size: 18.22px;
     font-weight: 300;
     border: #ffffff, solid, 0px;
     border-radius: 22.78px;
-    background: linear-gradient(-90deg,
+    background: linear-gradient(-50deg,
             #202020 45%,
             #2C2C2C 100%);
     padding: 20px;
-    height: 189px;
+    height: 200px;
     width: 304px;
 }
 
@@ -239,17 +256,27 @@ hr {
     /* Центрирование сетки */
 }
 
-.sheme_block_second {
+.sheme_block_second{
     margin-right: 40px;
     font-size: 15px;
     font-weight: 300;
     border: #ffffff, solid, 0px;
     border-radius: 22.78px;
-    height: 189px;
+    height: 200px;
     width: 304px;
 }
 
 .sheme_car {
     width: 496px;
-    height: 229px;
+    height: 240px;
 }
+
+.reviews_head{
+    padding-left: 9px;
+    font-size: 34.44px;
+}
+
+.reviews_text{
+    padding-left: 9px;
+}
+
